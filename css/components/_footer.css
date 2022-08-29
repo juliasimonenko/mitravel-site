@@ -1,0 +1,124 @@
+.footer {
+	border-top: 1px solid #d9d9d9;
+	padding-top: 124px;
+}
+
+.footer__container {
+	justify-content: space-between;
+	padding-bottom: 121px;
+}
+
+
+.footer__title {
+	position: relative;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 2.15px;
+	text-transform: uppercase;
+	color: #100E0B;
+	padding-bottom: 32px;
+	margin-bottom: 32px;
+}
+
+.footer__title::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #57A773;
+	width: 48px;
+	height: 1px;
+}
+
+
+.footer__link {
+
+	font-size: 13px;
+	line-height: 29px;
+	color: #959EA6;
+	display: inline-block;
+	transition: color 0.3s;
+}
+
+
+.footer__link:hover {
+	color: #22537e;
+	transition: color 0.3s;
+}
+
+.subs-form {
+	width: 368px;
+}
+
+.subs-form::placeholder {
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: -0.2px;
+	color: #1B1916;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+	background: #FFFFFF;
+}
+
+.subs-form__fild {
+	width: 100%;
+	height: 64px;
+	border: 1px solid #E4E4E4;
+	border-radius: 8px;
+	padding-left: 31px;
+	background-image: url("../../img/user.svg");
+	background-position: calc(100% - 31px) center;
+	background-repeat: no-repeat;
+}
+
+
+.subs-form__btn {
+	width: 100%;
+	background-color: var(--blue-color);
+	color: var(--white-color);
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	letter-spacing: 2.18182px;
+	text-transform: uppercase;
+	padding: 25px 121px;
+	border-radius: 8px;
+	margin-top: 16px;
+	margin-bottom: 34px;
+	transition: background-color 0.3s;
+}
+
+.subs-form__btn:hover {
+	background-color: var(--blue-color-hover);
+	transition: background-color 0.3s;
+}
+
+.footer__bottom {
+	border-top: 1px solid #d9d9d9;
+	padding: 30px 0;
+}
+
+.bottom-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__copy {
+	font-size: 13px;
+	line-height: 15px;
+	color: #959EA6;
+}
+
+.footer__links {
+display: flex;
+column-gap: 45px;
+}
+
+.footer__links-item {
+	font-size: 13px;
+	line-height: 15px;
+	color: #959EA6;
+}

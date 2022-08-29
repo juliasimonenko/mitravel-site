@@ -1,0 +1,9 @@
+:root {
+	--white-color: #fff;
+	--black-color: hsl(0, 0%, 0%);
+	--dark-color: rgb(28, 46, 61);
+	--red-color: rgb(232, 89, 78);
+	--blue-color: rgb(115, 175, 186);
+	--red-color-hover: #e31d0e;
+	--blue-color-hover: rgb(36, 145, 167);
+}
